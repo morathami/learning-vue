@@ -7,11 +7,33 @@ Hi random people from the internet :)
 | 1 | Vue 2 | 15/07/2021 - current |  |
 | 2 | PrimeVue | 16/07/2021 - current |  |
 | 3 | PrimeFlex | ... |  |
-| 4 | Vue Router | ... |  |
-| 5 | Vue | ... |  |
+| 4 | Vue Router | 18/07/2021 |  |
+| 5 | Vuex | ... |  |
 | 6 | GraphQL | ... |  |
 | 7 | Vue Apollo | ... |  |
 | 8 | Hasura | ... |  |
 | 9 | Testing with Jest | ... |  |
 
-PS: This markdown written using [Dillinger](https://dillinger.io/).
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run all tests
+npm test
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
