@@ -5,9 +5,9 @@ Hi random people from the internet :)
 | No. | Learning Tasks | Date | DONE |
 | ------ | ------ | ------ | ------ |
 | 1 | Vue 2 | 15/07/2021 - current |  |
-| 2 | PrimeVue | 16/07/2021 - current |  |
-| 3 | PrimeFlex | 18/07/2021 - current |  |
-| 4 | Vue Router | 18/07/2021 - current |  |
+| 2 | PrimeVue | 16/07/2021 - 18/07/2021 | v |
+| 3 | PrimeFlex | 18/07/2021 | v |
+| 4 | Vue Router | 18/07/2021 | v |
 | 5 | Vuex | 18/07/2021 - current |  |
 | 6 | GraphQL | ... |  |
 | 7 | Vue Apollo | ... |  |
