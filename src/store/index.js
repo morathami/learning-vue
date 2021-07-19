@@ -1,24 +1,21 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import actions from './actions'
+import mutations from './mutations'
+import getters from './getters'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    currentText: '',
-    allTexts: []
+    users: [
+      {id: 1, name: 'Aang', registered: false},
+      {id: 2, name: 'Katara', registered: false},
+      {id: 3, name: 'Sokka', registered: false},
+      {id: 4, name: 'Zuko', registered: false}
+    ]
   },
-  mutations: {
-    setCurrentText (state, payload) {
-      state.currentText = payload
-      state.allTexts.push(payload)
-    }
-  },
-  actions: {},
-  modules: {},
-  getters: {
-    getCurrentText (state) {
-      return state.currentText
-    }
-  }
+  getters,
+  mutations,
+  actions
 })
