@@ -8,7 +8,7 @@ Hi random people from the internet :)
 | 2 | PrimeVue | 16/07/2021 - 18/07/2021 | v |
 | 3 | PrimeFlex | 18/07/2021 | v |
 | 4 | Vue Router | 18/07/2021 | v |
-| 5 | Vuex | 18/07/2021 - current |  |
+| 5 | Vuex | 19/07/2021 - current |  |
 | 6 | GraphQL | ... |  |
 | 7 | Vue Apollo | ... |  |
 | 8 | Hasura | ... |  |
