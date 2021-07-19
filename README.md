@@ -9,9 +9,9 @@ Hi random people from the internet :)
 | 3 | PrimeFlex | 18/07/2021 | v |
 | 4 | Vue Router | 18/07/2021 | v |
 | 5 | Vuex | 19/07/2021 | v |
-| 6 | GraphQL | ... |  |
-| 7 | Vue Apollo | ... |  |
-| 8 | Hasura | ... |  |
+| 6 | GraphQL | 16/07/2021 - current |  |
+| 7 | Vue Apollo | 19/07/2021 - current |  |
+| 8 | Hasura | 19/07/2021 - current |  |
 | 9 | Testing with Jest | ... |  |
 
 ## Build Setup
