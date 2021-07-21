@@ -12,7 +12,7 @@ Hi random people from the internet :)
 | 6 | GraphQL | 16/07/2021 - current |  |
 | 7 | Vue Apollo | 19/07/2021 - current |  |
 | 8 | Hasura | 19/07/2021 - current |  |
-| 9 | Testing with Jest | ... |  |
+| 9 | Testing with Jest | 21/07/2021 - current |  |
 
 ## Build Setup
 
