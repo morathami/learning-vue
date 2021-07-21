@@ -1,15 +1,15 @@
 export default {
-  unregisteredUsers (state) {
+  unregisteredUsers(state) {
     return state.users.filter(user => {
-      return !user.registered
-    })
+      return !user.registered;
+    });
   },
-  registeredUsers (state) {
+  registeredUsers(state) {
     return state.users.filter(user => {
-      return user.registered
-    })
+      return user.registered;
+    });
   },
-  totalRegistrations (state, getters) {
-    return getters.registeredUsers.length
+  totalRegistrations(state, getters) {
+    return getters.registeredUsers.length;
   }
-}
+};

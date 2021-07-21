@@ -1,14 +1,14 @@
 export default {
-  register (state, payload) {
+  register(state, payload) {
     const user = state.users.find(user => {
-      return user.id === payload.id
-    })
-    user.registered = true
+      return user.id === payload.id;
+    });
+    user.registered = true;
   },
-  unregister (state, payload) {
+  unregister(state, payload) {
     const user = state.users.find(user => {
-      return user.id === payload.id
-    })
-    user.registered = false
+      return user.id === payload.id;
+    });
+    user.registered = false;
   }
-}
+};
