@@ -60,19 +60,19 @@ export default {
     DataTable,
     Column,
     Tag,
-    Card
+    Card,
   },
   methods: {
     ...mapMutations(["register", "unregister"]),
-    ...mapActions(["getUsers"])
+    ...mapActions(["getUsers"]),
   },
   computed: {
     ...mapState(["registrations", "users"]),
     ...mapGetters({
       registeredUsers: "registeredUsers",
-      total: "totalRegistrations"
-    })
-  }
+      total: "totalRegistrations",
+    }),
+  },
 };
 </script>
 

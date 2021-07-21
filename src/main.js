@@ -1,7 +1,5 @@
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from "vue";
-import App from "./App";
+import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import PrimeVue from "primevue/config";
@@ -21,7 +19,8 @@ Vue.config.productionTip = false;
 
 const getHeaders = () => {
   const headers = {};
-  const token = window.localStorage.getItem("apollo-token");
+  // const token = window.localStorage.getItem("apollo-token");
+  const token = "mock-token";
   if (token) {
     headers.authorization = `Bearer ${token}`;
   }
@@ -32,26 +31,23 @@ const getHeaders = () => {
 const link = new HttpLink({
   uri: "https://hasura.io/learn/graphql",
   fetch,
-  headers: getHeaders()
+  headers: getHeaders(),
 });
 
 export const apolloClient = new ApolloClient({
   link: link,
   cache: new InMemoryCache({
-    addTypename: true
-  })
+    addTypename: true,
+  }),
 });
 
 const apolloProvider = new VueApollo({
-  defaultClient: apolloClient
+  defaultClient: apolloClient,
 });
 
-/* eslint-disable no-new */
 new Vue({
-  el: "#app",
   router,
   store,
   apolloProvider,
-  components: { App },
-  template: "<App/>"
-});
+  render: (h) => h(App),
+}).$mount("#app");
