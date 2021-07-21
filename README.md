@@ -4,15 +4,19 @@ Hi random people from the internet :)
 
 | No. | Learning Tasks | Date | DONE |
 | ------ | ------ | ------ | ------ |
-| 1 | Vue 2 | 15/07/2021 - current |  |
+| 1 | Vue 2 | 15/07/2021 - 21/07/2021 | x |
 | 2 | PrimeVue | 16/07/2021 - 18/07/2021 | v |
 | 3 | PrimeFlex | 18/07/2021 | v |
 | 4 | Vue Router | 18/07/2021 | v |
 | 5 | Vuex | 19/07/2021 | v |
-| 6 | GraphQL | 16/07/2021 - current |  |
-| 7 | Vue Apollo | 19/07/2021 - current |  |
-| 8 | Hasura | 19/07/2021 - current |  |
-| 9 | Testing with Jest | 21/07/2021 - current |  |
+| 6 | GraphQL | 16/07/2021 - 21/07/2021 | x |
+| 7 | Vue Apollo | 19/07/2021 - 21/07/2021 | x |
+| 8 | Hasura | 19/07/2021 - 21/07/2021 | x |
+| 9 | Testing with Jest | 21/07/2021 | x |
+
+
+Extra note: *v* = Done // *x* = Discontinued for now
+
 
 ## Build Setup
 
